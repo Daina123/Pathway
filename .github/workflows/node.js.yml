@@ -12,12 +12,11 @@ on:
 jobs:
   build:
 
-    runs-on: self-hosting
+    runs-on: 
 
     strategy:
       matrix:
-        node-version: [15.x]
-
+        
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
