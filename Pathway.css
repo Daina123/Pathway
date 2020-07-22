@@ -1,19 +1,58 @@
 ///
-h3 {font-family: 'Roboto', sans-serif;
+h3 {
+  font-family: 'Roboto', sans-serif;
 }
-h1 {font-family: 'Roboto', sans-serif;}
 
-///////
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+html, body{
+  height: 100px;
+}
+.page-wrapper{
+  min-height: 100%;
+}
+.page-wrapper a:hover{
+  color: teal;
+}
+/* FOOTER*/
+.footer {
+  background: pink;
+  color: red;
+  height: 400px;
+  position: relative;
+}
+.footer-section{
+  flex:1;
+  padding: 25px;
+  border: 1px solid white;
+}
+ .footer-content {
+  border: 1px solid red;
+  height: 350px;
+  display: flex;
+}
 
-////////
+.footer .footer-bottom {
+  background: black;
+  color: orange;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  Padding-Top: 20px;
+}
 
-////
-*{
+/////////
+* {
   padding: 0;
   margin: 0;
   list-style: none;
   text-decoration: none;
 }
+
 .sidebar {
   position: fixed;
   left: -250px;
@@ -22,6 +61,7 @@ h1 {font-family: 'Roboto', sans-serif;}
   background: #042331;
   transition: all .5s ease;
 }
+
 .sidebar header {
   font-size: 22px;
   color: white;
@@ -30,7 +70,8 @@ h1 {font-family: 'Roboto', sans-serif;}
   background: #063146;
   user-select: none;
 }
-.sidebar ul a{
+
+.sidebar ul a {
   display: block;
   height: 100%;
   width: 100%;
@@ -40,25 +81,30 @@ h1 {font-family: 'Roboto', sans-serif;}
   padding-left: 40px;
   box-sizing: border-box;
   border-bottom: 1px solid black;
-  border-top: 1px solid rgba(255,255,255,.1);
+  border-top: 1px solid rgba(255, 255, 255, .1);
   transition: .4s;
 }
-ul li:hover a{
+
+ul li:hover a {
   padding-left: 50px;
 }
-.sidebar ul a i{
+
+.sidebar ul a i {
   margin-right: 16px;
 }
-#check{
+
+#check {
   display: none;
 }
-label #btn,label #cancel{
+
+label #btn, label #cancel {
   position: absolute;
   background: #042331;
   border-radius: 3px;
   cursor: pointer;
 }
-label #btn{
+
+label #btn {
   left: 40px;
   top: 25px;
   font-size: 35px;
@@ -66,7 +112,8 @@ label #btn{
   padding: 6px 12px;
   transition: all .5s;
 }
-label #cancel{
+
+label #cancel {
   z-index: 1111;
   left: -195px;
   top: 17px;
@@ -75,21 +122,26 @@ label #cancel{
   padding: 4px 9px;
   transition: all .5s ease;
 }
-#check:checked ~ .sidebar{
+
+#check:checked~.sidebar {
   left: 0;
 }
-#check:checked ~ label #btn{
+
+#check:checked~label #btn {
   left: 250px;
   opacity: 0;
   pointer-events: none;
 }
-#check:checked ~ label #cancel{
+
+#check:checked~label #cancel {
   left: 195px;
 }
-#check:checked ~ section{
+
+#check:checked~section {
   margin-left: 250px;
 }
-section{
+
+section {
   background: url(https://cdn.pixabay.com/photo/2016/01/19/14/59/pathway-1149113_960_720.jpg) no-repeat;
   background-position: center;
   background-size: cover;
