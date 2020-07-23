@@ -19,8 +19,8 @@ html, body{
 }
 /* FOOTER*/
 .footer {
-  background: pink;
-  color: red;
+  background: linear-gradient(115deg, #0683D7 10%, #8D3FD0 90%);
+  color: white;
   height: 400px;
   position: relative;
 }
@@ -30,7 +30,7 @@ html, body{
   border: 1px solid white;
 }
  .footer-content {
-  border: 1px solid red;
+  border: 1px solid #161B7F;
   height: 350px;
   display: flex;
 
@@ -40,11 +40,45 @@ html, body{
   color: white;
 }
 .footer .footer-content .about h1 span{
-  color: brown;
+  color: #161B7F;
 }
+.footer .footer-content .about .contact span{
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
+.footer .footer-content .about .socials a{
+  border: 1px solid grey;
+  width: 45px;
+  height: 41px;
+  margin-top: 5px;
+  margin right: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.3em;
+  border-radius: 5px;
+  transition: all .3s;
+}
+.footer .footer-content .about .socials a:hover{
+  border: .5px solid white;
+  color: white;
+  transition: all .3s;
+}
+.footer-content .links ul a{
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+.footer-content .links ul a:hover{
+  color: white;
+  margin-left: 15px;
+  transition: .3s;
+}
+
+
 .footer .footer-bottom {
-  background: black;
-  color: orange;
+  background: #ED3D63;
+  color: white;
   height: 50px;
   width: 100%;
   text-align: center;
