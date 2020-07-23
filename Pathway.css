@@ -8,7 +8,9 @@ h1 {
 }
 html, body{
   height: 100px;
+
 }
+
 .page-wrapper{
   min-height: 100%;
 }
@@ -144,6 +146,7 @@ label #cancel {
 section {
   background: url(https://cdn.pixabay.com/photo/2016/01/19/14/59/pathway-1149113_960_720.jpg) no-repeat;
   background-position: center;
+
   background-size: cover;
   height: 100vh;
   transition: all .5s;
