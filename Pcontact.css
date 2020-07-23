@@ -25,7 +25,7 @@ form{
   border: none;
   outline: none;
   border-bottom: 1px solid pink;
-  color: black;
+  color: orange;
   font-size: 18px;
   margin-bottom: 16px;
 }
@@ -36,7 +36,7 @@ input{
 
 form .submit{
   background: #ff5722;
-  border-color: transparent;
+  border-color: yellow;
   color: brown;
   font-size: 20px;
   font-weight: bold;
@@ -46,15 +46,15 @@ form .submit{
 }
 
 form .submit:hover{
-  background-color: #f44336;
-  cursor: pointer;
+  background-color: black;
+  cursor: pointer ;
 }
 
 body {
   margin: 0;
   Padding: 0;
   text-align: center;
-  background: linear-gradient (115deg, #223CCF 10%, #8D3FD0 90%), url(hiclipart.com.png);
+  background: linear-gradient (rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url(https://www.vippng.com/png/detail/6-64352_heart-png-stock-no-background-techflourish-collections-transparent.png);
   background-size: cover;
   background-position: center;
   font-family: sans-serif;
