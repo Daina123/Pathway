@@ -24,6 +24,7 @@ html, body{
   height: 400px;
   position: relative;
 }
+
 .footer-section{
   flex:1;
   padding: 25px;
@@ -33,6 +34,19 @@ html, body{
   border: 1px solid #161B7F;
   height: 350px;
   display: flex;
+
+}
+
+ .contact-input{
+  background: #272727;
+  color: #bebdbd;
+  margin-bottom: 10px;
+  line-height: 1.5em;
+  padding: .7rem 1.4rem;
+  border:none;
+}
+.footer .footer-content .contact-form .contact-input:focus{
+  background: #1a1a1a;
 
 }
 .footer .footer-content h1,
